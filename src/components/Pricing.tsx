@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Check, PhoneCall } from "lucide-react";
+import { Check, PhoneCall, MailCheck, Mail } from "lucide-react";
 
 const features = [
   "Standard edit £49.99 per video",
@@ -58,8 +58,8 @@ const Pricing = () => {
           </ul>
 
           <button className="w-full py-3 rounded-lg bg-gradient-primary text-primary-foreground font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition">
-            <PhoneCall className="w-4 h-4" />
-            Call us at +44 7375 618638
+            <Mail className="w-4 h-4" />
+            Mail us - editlab4u@gmail.com
           </button>
         </motion.div>
       </div>
