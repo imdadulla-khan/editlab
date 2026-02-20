@@ -59,7 +59,7 @@ const Pricing = () => {
 
           <button className="w-full py-3 rounded-lg bg-gradient-primary text-primary-foreground font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition">
             <Mail className="w-4 h-4" />
-            Mail us - editlab4u@gmail.com
+            editlab4u@gmail.com
           </button>
         </motion.div>
       </div>

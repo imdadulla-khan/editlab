@@ -99,7 +99,7 @@ const Contact = () => {
 
           <textarea
             rows={5}
-            placeholder="Tell me about your project..."
+            placeholder="Tell us about your project..."
             value={form.message}
             onChange={(e) =>
               setForm({ ...form, message: e.target.value })

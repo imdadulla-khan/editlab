@@ -6,6 +6,7 @@ const navLinks = [
   { label: "Work", href: "#work" },
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
+  { label: "Pricing", href: "#pricing" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -19,10 +20,15 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const handleClick = (href: string) => {
-    setMobileOpen(false);
-    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
-  };
+const handleClick = (href: string) => {
+  setMobileOpen(false);
+
+  setTimeout(() => {
+    document
+      .querySelector(href)
+      ?.scrollIntoView({ behavior: "smooth" });
+  }, 250); // match animation duration
+};
 
   return (
     <motion.nav
