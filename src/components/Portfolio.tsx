@@ -5,27 +5,27 @@ import { Play } from "lucide-react";
 
 const projects = [
   {
-    title: "Brand Film — Elevate",
-    description: "A cinematic brand story for a luxury lifestyle company.",
+    title: "Instagram reel — Business",
+    description: "Sleek edits for your business.",
     videoId: "HiDChLf9fNk",
     platform: "youtube" as const,
   },
   {
-    title: "Music Video — Echoes",
-    description: "Fast-paced editing with dynamic color grading.",
+    title: "Real Estate — Business",
+    description: "Wonderful Drone shots to get the complete idea.",
     videoId: "kMzB5C0RUVg",
     platform: "youtube" as const,
   },
   {
-    title: "Product Launch — Aura",
-    description: "Sleek promotional edit for a tech product reveal.",
-    videoId: "dQw4w9WgXcQ",
+    title: "Product Launch — Perfume",
+    description: "A cinematic brand story for a luxury lifestyle company.",
+    videoId: "o0fOrmmDmkA",
     platform: "youtube" as const,
   },
   {
-    title: "Short-form — Momentum",
-    description: "Vertical reel edit optimized for social engagement.",
-    videoId: "ScMzIvxBSi4",
+    title: "Restaurants - Edits",
+    description: "Vertical reel edit for restaurants optimised for instagram.",
+    videoId: "Sx-bFfT-ev4",
     platform: "youtube" as const,
   },
 ];

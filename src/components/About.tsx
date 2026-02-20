@@ -20,10 +20,10 @@ const About = () => {
             About
           </p>
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-10">
-            The Editor
+            Team EDITLAB
           </h2>
           <p className="text-lg md:text-xl leading-relaxed text-muted-foreground">
-            I'm a video editor focused on storytelling, rhythm, and emotion.
+            We are a team of video editors focused on storytelling, rhythm, and emotion.
           </p>
           <p className="text-lg md:text-xl leading-relaxed text-muted-foreground mt-6">
             From fast-paced reels to cinematic long-form edits, every frame is
