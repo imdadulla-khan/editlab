@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Check, PhoneCall, MailCheck, Mail } from "lucide-react";
+import { Check, Mail } from "lucide-react";
 
 const features = [
   "Standard edit £49.99 per video",
